@@ -1,0 +1,65 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="accueil.html">Accueil</a>
+            </li>
+            <li>
+                <a href="sports.html">Exercices</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>Contactez-moi</h1>
+
+    <h2>Vous êtes débutant?</h2>
+    <p>
+        Vous avez envie de reprendre le sport après avoir arreté depuis longtemps.<br/>
+        Je vous propose un programme de reprise adapté selon vos objectifs et vos envies.
+    </p>
+
+    <h2>Vous avez un niveau intermédiaire?</h2>
+    <p>
+        Cela fait un moment que vous pratiqué une activité sportive régulière et vous voulez passé un cap dans votre pratique. <br />
+        Je vous propose un programme sur mesure selon les objectifs tout en gardant le plaisir en ligne directive de votre pratique (début de la compétition, pratique plus importante, nouvelle activité sportive).
+    </p>
+
+    <h2>Vous êtes un sportif aguerri?</h2>
+    <p>
+        Vous êtes un compétiteur et recherchez à alliez performance et plaisir. 
+        Je vous propose un programme en adéquation avec vos objectifs et les types de séances que vous aimez.
+    </p>
+
+    <h2>Vous revenez d'une blessure importante?</h2>
+    <p>
+        Vous êtes enfin remis sur pied et souhaitez retrouvez le goût de la sueur.
+        Je vous propose un programme de rééducation et de remise en forme pour vous redonner goût à la vie.
+    </p>
+
+    <form action="POST" id="formulaire">
+        <!--Champs nom-->
+        <label for="nom">Nom* :</label><input type="text" name="nom" id="nom" required="required" /><br/>
+
+        <!--Champs email-->
+        <label for="email">Email* :</label><input type="mail" name="email" id="email" required="required" /><br/>
+
+        <!--Champs message-->
+        <label for="Message">Message :</label><br/>
+        <textarea name="message" id="message" ></textarea><br/>
+
+        <!--Boutons-->
+        <input type="submit" name="envoyer" id="envoyer" value="Envoyer" />
+    </form>
+
+</body>
+</html>
