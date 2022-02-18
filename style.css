@@ -1,11 +1,18 @@
 body{
     margin:0 8% 0 8%;
     font-family: Arial, Helvetica, sans-serif;
-    background: #ccc;
 }
 
 h1{
     text-align: center;
+}
+
+.activeLink{
+    padding-right: 4.3rem;
+    font-size: 140%;
+    cursor: pointer;
+    border-right: solid;
+    border-left: solid;
 }
 
 .galerie, .menu{
@@ -40,4 +47,8 @@ h1{
 .sportItem img{
     width : 400px;
     height: 250px;
+}
+
+@media (max-width:710px){
+    
 }
