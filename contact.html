@@ -21,31 +21,35 @@
 
     <h1>Contactez-moi</h1>
 
-    <h2>Vous êtes débutant?</h2>
-    <p>
-        Vous avez envie de reprendre le sport après avoir arreté depuis longtemps.<br/>
-        Je vous propose un programme de reprise adapté selon vos objectifs et vos envies.
-    </p>
+    <section class="infoContact">
+        <h2>Pourquoi me contactez?</h2>
+        <h3 id="titre3-1">Vous êtes débutant?</h3>
+        <p>
+            Vous avez envie de reprendre le sport après avoir arreté depuis longtemps.<br/>
+            Je vous propose un programme de reprise adapté selon vos objectifs et vos envies.
+        </p>
 
-    <h2>Vous avez un niveau intermédiaire?</h2>
-    <p>
-        Cela fait un moment que vous pratiqué une activité sportive régulière et vous voulez passé un cap dans votre pratique. <br />
-        Je vous propose un programme sur mesure selon les objectifs tout en gardant le plaisir en ligne directive de votre pratique (début de la compétition, pratique plus importante, nouvelle activité sportive).
-    </p>
+        <h3 id="titre3-2">Vous avez un niveau intermédiaire?</h3>
+        <p>
+            Cela fait un moment que vous pratiqué une activité sportive régulière et vous voulez passé un cap dans votre pratique. <br />
+            Je vous propose un programme sur mesure selon les objectifs tout en gardant le plaisir en ligne directive de votre pratique (début de la compétition, pratique plus importante, nouvelle activité sportive).
+        </p>
 
-    <h2>Vous êtes un sportif aguerri?</h2>
-    <p>
-        Vous êtes un compétiteur et recherchez à alliez performance et plaisir. 
-        Je vous propose un programme en adéquation avec vos objectifs et les types de séances que vous aimez.
-    </p>
+        <h3 id="titre3-3">Vous êtes un sportif aguerri?</h3>
+        <p>
+            Vous êtes un compétiteur et recherchez à alliez performance et plaisir. 
+            Je vous propose un programme en adéquation avec vos objectifs et les types de séances que vous aimez.
+        </p>
 
-    <h2>Vous revenez d'une blessure importante?</h2>
-    <p>
-        Vous êtes enfin remis sur pied et souhaitez retrouvez le goût de la sueur.
-        Je vous propose un programme de rééducation et de remise en forme pour vous redonner goût à la vie.
-    </p>
+        <h3 id="titre3-4">Vous revenez d'une blessure importante?</h3>
+        <p>
+            Vous êtes enfin remis sur pied et souhaitez retrouvez le goût de la sueur.
+            Je vous propose un programme de rééducation et de remise en forme pour vous redonner goût à la vie.
+        </p>
+    </section>
 
     <form action="POST" id="formulaire">
+        <h2>Écrivez-moi !</h2>
         <!--Champs nom-->
         <label for="nom">Nom* :</label><input type="text" name="nom" id="nom" required="required" /><br/>
 
@@ -53,7 +57,7 @@
         <label for="email">Email* :</label><input type="mail" name="email" id="email" required="required" /><br/>
 
         <!--Champs message-->
-        <label for="Message">Message :</label><br/>
+        <label id="labelMessage" for="Message">Message :</label><br/>
         <textarea name="message" id="message" ></textarea><br/>
 
         <!--Boutons-->

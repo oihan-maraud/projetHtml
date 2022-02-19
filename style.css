@@ -7,6 +7,39 @@ h1{
     text-align: center;
 }
 
+#titre2-1, #titre3-1{
+    color : #0382cb
+}
+
+#titre2-2, #titre3-2{
+    color : #f9ab33
+}
+
+#titre2-3, #titre3-3{
+    color : #03984d
+}
+
+#titre2-4, #titre3-4{
+    color : #ea3953
+}
+
+.bouton{
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color : #000;
+    background: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.bouton:hover{
+    color : #fff;
+    background: grey;
+}
+
 .activeLink{
     padding-right: 4.3rem;
     font-size: 140%;
@@ -22,6 +55,7 @@ h1{
 .galerie{
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-left: 0;
 }
 
 .menu{
@@ -40,17 +74,103 @@ h1{
 }
 
 .sportItem{
-    width: 30%;
+    width: 25%;
+    padding: 3%;
     list-style: none;
+    margin-bottom: 5%;
+    position: relative;
+    background: #000;
+    color:#fff;
+    border-radius: 10%;
 }
 
 .sportItem img{
-    width : 400px;
-    height: 250px;
+    display: block;
+    max-width: 100%;
+ 
+    height: auto;
+}
+
+.sportItem h2{
+    text-align: center;
 }
 
 .burgerButton{
     display: none;
+}
+
+.infoContact{
+    background: #000;
+    color:#fff;
+    border-radius : 50px;
+    padding: 2%;
+    margin:3% auto;
+    text-align: center;
+    width: 50%;
+}
+
+.infoContact h2, #formulaire h2{
+    margin-top: 0;
+}
+
+#formulaire{
+    background: #000;
+    color:#fff;
+    border-radius : 50px;
+    padding: 2%;
+    margin:3% auto;
+    text-align: center;
+    width: 50%;
+}
+
+label{
+    width: 13%;
+    display: inline-block;
+    margin: 4px 0;
+    font-weight: bold;
+}
+
+#labelMessage{
+    width : 40%
+}
+
+input[type=text], [type=mail]{
+    width: 25%;
+    background: #000;
+    border:none;
+    border-bottom: 1px solid #fff;
+    color : #fff
+}
+
+input[type=submit]{
+    width: 20%;
+    padding: 1%;
+    background: #fff;
+    border: 1px solid black;
+    border-radius : 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+textarea{
+    width: 60%;
+    height: 100px;
+    background : #fff;
+    border: 1px solid black;
+    resize : none;
+}
+
+@media (max-width:1250px){
+    .sportItem{
+        width : 40%;  
+        border-radius: 5%;
+    }
+
+    .infoContact, #formulaire{
+        width:80%;
+        padding: 3%;
+    }
 }
 
 @media (max-width:710px){
@@ -97,4 +217,21 @@ h1{
     #menu:target{
 		max-height: 2000px;
 	}
+
+    .sportItem{
+        width : 100%;
+        margin-bottom: 50px;
+        padding: 7%;
+    }
+
+    label{
+        width: 30%;
+        display: inline-block;
+        margin: 4px 0;
+        font-weight: bold;
+    }
+
+    input[type=submit]{
+        width: 40%;
+    }
 }
