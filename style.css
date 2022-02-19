@@ -134,7 +134,7 @@ label{
     width : 40%
 }
 
-input[type=text], [type=mail]{
+input[type=text], [type=email]{
     width: 25%;
     background: #000;
     border:none;
